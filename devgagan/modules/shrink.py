@@ -56,8 +56,8 @@ async def token_handler(client, message):
         return
     user_id = message.chat.id
     if len(message.command) <= 1:
-        image_url = "https://i.postimg.cc/v8q8kGyz/startimg-1.jpg"
-        join_button = InlineKeyboardButton("Join our Channel", url="https://t.me/team_spy_pro")
+        image_url = "https://files.catbox.moe/lwd4k1.jpg"
+        join_button = InlineKeyboardButton("Join our Channel", url="https://t.me/Spark_Developer_Bots")
         keyboard = InlineKeyboardMarkup([[join_button]])
 
         # Send the message with the image and keyboard
@@ -67,7 +67,7 @@ async def token_handler(client, message):
                 "Hi 👋 Welcome, Wanna intro...?\n\n"
                 "✳️ I can save posts from channels or groups where forwarding is off. I can download videos/audio from YT, INSTA, ... social platforms\n"
                 "✳️ Simply send the post link of a public channel. For private channels, do /login. Send /help to know more. \n\n"
-                "> 👉 **__Note:__** Initiate /set to auto setup bot commands (owner only)"
+                "> 👉 **Made By Spark Developer (Owner)** "
             ),
             reply_markup=keyboard
         )
