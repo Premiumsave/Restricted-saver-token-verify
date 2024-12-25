@@ -69,12 +69,12 @@ async def token_handler(client, message):
                 "✳️ Simply send the post link of a public channel. For private channels, do /login. Send /help to know more. \n\n"
                 "> 👉 **Made By Spark Developer (Owner)** "
             ),
+            reply_markup=buttons
             buttons = InlineKeyboardMarkup(
-                [
-                    [InlineKeyboardButton("Join Channel", url="https://t.me/+bxa7pKmXMCFjMjJl")],
-                    [InlineKeyboardButton("Buy Premium", url="https://t.me/Spark_Developer")]
-                ]
-            )
+            [
+                [InlineKeyboardButton("Join Channel", url="https://t.me/+bxa7pKmXMCFjMjJl")],
+                [InlineKeyboardButton("Buy Premium", url="https://t.me/Spark_Developer")]
+            ]
         )
         return  
         
