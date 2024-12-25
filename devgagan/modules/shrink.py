@@ -76,6 +76,7 @@ async def token_handler(client, message):
                 [InlineKeyboardButton("Buy Premium", url="https://t.me/Spark_Developer")]
             ]
         )
+        )
         return  
         
     param = message.command[1] if len(message.command) > 1 else None
