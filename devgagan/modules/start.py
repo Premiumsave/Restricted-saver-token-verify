@@ -175,8 +175,8 @@ async def terms(client, message):
 @app.on_message(filters.command("plan") & filters.private)
 async def plan(client, message):
     plan_text = (
-        "💰 **Premium Price**: Starting from $2 or 200 INR accepted via **__Amazon Gift Card__** (terms and conditions apply).\n"
-        "📥 **Download Limit**: Users can download up to 100,000 files in a single batch command.\n"
+        "💰 **Premium Price**: Starting from ₹15 per day accepted via **Upi** to purchase contact @Spark_Developer (terms and conditions apply).\n"
+        "📥 **Download Limit**: Users can download up to 10,00,000 files in a single batch command.\n"
         "🛑 **Batch**: You will get two modes /bulk and /batch.\n"
         "   - Users are advised to wait for the process to automatically cancel before proceeding with any downloads or uploads.\n\n"
         "📜 **Terms and Conditions**: For further details and complete terms and conditions, please send /terms.\n"
@@ -194,11 +194,11 @@ async def plan(client, message):
 @app.on_callback_query(filters.regex("see_plan"))
 async def see_plan(client, callback_query):
     plan_text = (
-        "💰 **Premium Price**: Starting from $2 or 200 INR accepted via **__Amazon Gift Card__** (terms and conditions apply).\n"
-        "📥 **Download Limit**: Users can download up to 100,000 files in a single batch command.\n"
+       "💰 **Premium Price**: Starting from ₹15 per day accepted via **Upi** to purchase contact @Spark_Developer (terms and conditions apply).\n"
+        "📥 **Download Limit**: Users can download up to 10,00,000 files in a single batch command.\n"
         "🛑 **Batch**: You will get two modes /bulk and /batch.\n"
         "   - Users are advised to wait for the process to automatically cancel before proceeding with any downloads or uploads.\n\n"
-        "📜 **Terms and Conditions**: For further details and complete terms and conditions, please send /terms or click See Terms👇\n"
+        "📜 **Terms and Conditions**: For further details and complete terms and conditions, please send /terms.\n"
     )
     # Buttons for "See Terms" and "Contact"
     buttons = InlineKeyboardMarkup(
