@@ -68,7 +68,7 @@ async def token_handler(client, message):
                 "Hi 👋 Welcome, Wanna intro...?\n\n"
                 "✳️ I can save posts from channels or groups where forwarding is off. I can download videos/audio from YT, INSTA, ... social platforms\n"
                 "✳️ Simply send the post link of a public channel. For private channels, do /login. Send /help to know more. \n\n"
-                "> 👉 **Made By Spark Developer (Owner)** "
+                "> 👉 **Made By Yusuf Developer (Owner)** "
             ),
             reply_markup=keyboard
         )
