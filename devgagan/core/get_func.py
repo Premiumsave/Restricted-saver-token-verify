@@ -654,7 +654,7 @@ async def set_rename_command(user_id, custom_rename_tag):
 # Function to get the user's custom renaming preference
 def get_user_rename_preference(user_id):
     # Retrieve the user's custom renaming tag if set, or default to 'Team SPY'
-    return user_rename_preferences.get(str(user_id), 'Spark Developer')
+    return user_rename_preferences.get(str(user_id), 'Yusuf Developer')
 
 # Function to set custom caption preference
 async def set_caption_command(user_id, custom_caption):
@@ -682,7 +682,7 @@ async def settings_command(event):
         [Button.inline("Session Login", b'addsession'), Button.inline("Logout", b'logout')],
         [Button.inline("Set Thumbnail", b'setthumb'), Button.inline("Remove Thumbnail", b'remthumb')],
         [Button.inline("Upload Method", b'uploadmethod')],
-        [Button.url("Report Errors", "https://t.me/Spark_Developer")]
+        [Button.url("Report Errors", "https://t.me/Personal123premium")]
     ]
     
     await gf.send_file(
