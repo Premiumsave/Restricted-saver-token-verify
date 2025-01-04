@@ -175,7 +175,7 @@ async def terms(client, message):
 @app.on_message(filters.command("plan") & filters.private)
 async def plan(client, message):
     plan_text = (
-        "💰 **Premium Price**: Starting from ₹15 per day and 100rs for 1 months 😇accepted via **Upi** to purchase contact @Personal123premium (terms and conditions apply).\n"
+        "💰 **Premium Price**: Starting from  199rs for 1 months 😇accepted via **Upi** to purchase contact @Traderpersonaladvice2314 (terms and conditions apply).\n"
         "📥 **Download Limit**: Users can download up to 10,00,000 files in a single batch command.\n"
         "🛑 **Batch**: You will get two modes /bulk and /batch.\n"
         "   - Users are advised to wait for the process to automatically cancel before proceeding with any downloads or uploads.\n\n"
@@ -194,7 +194,7 @@ async def plan(client, message):
 @app.on_callback_query(filters.regex("see_plan"))
 async def see_plan(client, callback_query):
     plan_text = (
-       "💰 **Premium Price**: Starting from ₹15 per day and 100rs for 1 months accepted via **Upi** to purchase contact @Personal123premium (terms and conditions apply).\n"
+       "💰 **Premium Price**: Starting from 199rs for 1 months accepted via **Upi** to purchase contact @Personal123premium (terms and conditions apply).\n"
         "📥 **Download Limit**: Users can download up to 10,00,000 files in a single batch command.\n"
         "🛑 **Batch**: You will get two modes /bulk and /batch.\n"
         "   - Users are advised to wait for the process to automatically cancel before proceeding with any downloads or uploads.\n\n"
@@ -222,7 +222,7 @@ async def see_terms(client, callback_query):
     buttons = InlineKeyboardMarkup(
         [
             [InlineKeyboardButton("📋 See Plans", callback_data="see_plan")],
-            [InlineKeyboardButton("💬 Contact Now", url="https://t.me/Personal123premium")],
+            [InlineKeyboardButton("💬 Contact Now", url="https://t.me/Traderpersonaladvice2314")],
         ]
     )
     await callback_query.message.edit_text(terms_text, reply_markup=buttons)
