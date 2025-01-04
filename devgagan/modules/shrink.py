@@ -58,7 +58,7 @@ async def token_handler(client, message):
     if len(message.command) <= 1:
         image_url = "https://files.catbox.moe/lwd4k1.jpg"
         keyboard = InlineKeyboardMarkup(
-            [[InlineKeyboardButton("Join Channel", url="https://t.me/Traderpersonaladvice2314")],
+            [[InlineKeyboardButton("Join Channel", url="https://t.me/+TdpFxxFkCpxkODE1")],
              [InlineKeyboardButton("Buy Premium", url="https://t.me/Traderpersonaladvice2314")]])
 
         # Send the message with the image and keyboard
