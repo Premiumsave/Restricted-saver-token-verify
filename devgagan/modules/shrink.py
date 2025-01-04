@@ -58,17 +58,17 @@ async def token_handler(client, message):
     if len(message.command) <= 1:
         image_url = "https://files.catbox.moe/lwd4k1.jpg"
         keyboard = InlineKeyboardMarkup(
-            [[InlineKeyboardButton("Developer", url="https://t.me/Personal123premium")],
-             [InlineKeyboardButton("Buy Premium", url="https://t.me/Personal123premium")]])
+            [[InlineKeyboardButton("Developer", url="https://t.me/Traderpersonaladvice2314")],
+             [InlineKeyboardButton("Buy Premium", url="https://t.me/Traderpersonaladvice2314")]])
 
         # Send the message with the image and keyboard
         await message.reply_photo(
             photo=image_url,
             caption=(
-                "Hi 👋 Welcome, Wanna intro...?\n\n"
+                "Hi 👋 Welcome, This bot is made by a professiona developer GAURAV 😎...?\n\n"
                 "✳️ I can save posts from channels or groups where forwarding is off. I can download videos/audio from YT, INSTA, ... social platforms\n"
                 "✳️ Simply send the post link of a public channel. For private channels, do /login. Send /help to know more. \n\n"
-                "> 👉 **Made By Yusuf Developer (Owner)** "
+                "> 👉 **Made By Gaurav Developer (Owner)** "
             ),
             reply_markup=keyboard
         )
