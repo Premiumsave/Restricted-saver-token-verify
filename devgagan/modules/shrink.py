@@ -65,10 +65,10 @@ async def token_handler(client, message):
         await message.reply_photo(
             photo=image_url,
             caption=(
-                "Hi 👋 Welcome, This bot is made by a professiona developer GAURAV 😎...?\n\n"
-                "✳️ I can save posts from channels or groups where forwarding is off. I can download videos/audio from YT, INSTA, ... social platforms\n"
+                "Hi 👋 Welcome, This bot is made by a professiona developer SUNNY DEOL 😎...?\n\n"
+                "✳️ I can save posts from channels or groups where forwarding is off. I can download any thing from private or public channel very easy with high speed data 🚄🚄, ... social platforms\n"
                 "✳️ Simply send the post link of a public channel. For private channels, do /login. Send /help to know more. \n\n"
-                "> 👉 **Made By Gaurav Developer (Owner)** "
+                "> 👉 **Made By Trader 😇 Developer (Owner)** "
             ),
             reply_markup=keyboard
         )
