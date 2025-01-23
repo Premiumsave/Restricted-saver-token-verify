@@ -58,14 +58,14 @@ async def token_handler(client, message):
     if len(message.command) <= 1:
         image_url = "https://files.catbox.moe/lwd4k1.jpg"
         keyboard = InlineKeyboardMarkup(
-            [[InlineKeyboardButton("Join Channel", url="https://t.me/+TdpFxxFkCpxkODE1")],
-             [InlineKeyboardButton("Buy Premium", url="https://t.me/Traderpersonaladvice2314")]])
+            [[InlineKeyboardButton("Join Channel", url="https://t.me/+2FoFC4GFqVoxMTM1")],
+             [InlineKeyboardButton("Buy Premium", url="https://t.me/Kingofmarket03")]])
 
         # Send the message with the image and keyboard
         await message.reply_photo(
             photo=image_url,
             caption=(
-                "Hi 👋 Welcome, This bot is made by a professiona developer SUNNY DEOL 😎...?\n\n"
+                "Hi 👋 Welcome, This bot is made by @Kingofmarket03..?\n\n"
                 "✳️ I can save posts from channels or groups where forwarding is off. I can download any thing from private or public channel very easy with high speed data 🚄🚄, ... social platforms\n"
                 "✳️ Simply send the post link of a public channel. For private channels, do /login. Send /help to know more. \n\n"
                 "> 👉 **Made By Trader 😇 Developer (Owner)** "
